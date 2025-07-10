@@ -1,3 +1,118 @@
-h1{
-    color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Noto+Sans+TC:wght@100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+/*標籤基本樣式*/
+*,*::before,*::after{
+    box-sizing: border-box;
 }
+
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+
+/*文字顏色*/
+:root{
+    --neutral-900:#212529;
+    --neutral-600:#6c757d;
+    --neutral-300:#dee2e6;
+    --white:#ffffff;
+    --primary-400:#57a203;
+    --primary-300:#c0fa73;
+    --primary-200:#e8fec5;
+}
+
+body{
+     font-family: "Noto Sans TC", sans-serif;
+     letter-spacing: 0.05rem;
+}
+.mina-bold{
+    font-family: "Mina", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.044rem;
+}
+.header{
+    justify-content: space-between;
+}
+.bi{
+    vertical-align: bottom;
+}
+a{
+    text-decoration: none;
+    color: var(--neutral-900);    
+}
+
+.h3{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.h6{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.text-md{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.text-sm{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+}
+/*推擠*/
+.pb-32{
+    padding-bottom: 32px;
+}
+.pb-48{
+    padding-bottom: 48px;
+}
+.mb-24{
+    margin-bottom: 24px;
+}
+.mb-12{
+    margin-bottom: 12px;
+}
+.pr-48{
+    padding-right: 48px;
+}
+.pr-40{
+    padding-right: 40px;
+}
+.pr-24{
+    padding-right: 24px;
+}
+.pr-12{
+    padding-right: 12px;
+}
+.pl-12{
+    padding-left: 12px;
+}
+.pt-16{
+    padding-top: 16px;
+}
+.p-12{
+    padding: 12px 0;
+}
+.mr-24{
+    margin-right: 24px;
+}
+
+/*df*/
+.d-flex{
+    display: flex;
+}
+/*下方框框背景顏色*/
+.bg-primary-200{var(--primary-200);}
+/*footer背景顏色*/
+.bg-neutral-300{var(--neutral-300);}
+
