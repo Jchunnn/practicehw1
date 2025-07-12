@@ -149,12 +149,12 @@ img{
     border-radius: 3px;
 }
 .footer{
-    width: 1296px;
+    max-width: 1296px;
     margin: 0 auto;
     justify-content: space-between;
 }
 .copyright{
-    width: 1296px;
+    max-width: 1296px;
     color: var(--neutral-600);
     margin: 0 auto;
     text-align: center;
