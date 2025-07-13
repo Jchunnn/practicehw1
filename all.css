@@ -82,9 +82,11 @@ body{
 }
 .header{
     justify-content: space-between;
+    align-items: center;
 }
 .bi{
     vertical-align: bottom;
+    padding: 12px;
 }
 a{
     text-decoration: none;
@@ -124,6 +126,8 @@ a:hover{
     width: 30%;
 }
 img{  
+    vertical-align: middle;
+    height: auto;
     max-width: 100%;   
 }
 .page{
@@ -138,15 +142,17 @@ img{
 }
 .discount{
     background-color: var(--primary-200);
+    justify-content: center;
+    align-items: center;
     padding-top: 33.5px;
     padding-bottom: 33.5px;
-    padding-left: 600px;
 }
 .discount a{
     color: #ffffff;
     background-color: var(--neutral-900);
     padding: 12px 24px;
     border-radius: 3px;
+    cursor: pointer;
 }
 .footer{
     max-width: 1296px;
@@ -244,6 +250,12 @@ h6{
 .pt-16{
     padding-top: 16px;
 }
+.pt-12{
+    padding-top: 12px;
+}
+.pt-4{
+    padding-top: 4px;
+}
 .p-8-15{
     padding: 8px 15px;
 }
@@ -288,4 +300,17 @@ h6{
 .bg-primary-200{var(--primary-200);}
 /*footer背景顏色*/
 .bg-neutral-300{var(--neutral-300);}
-
+/* 元件 */
+.breadcrumb-item+.breadcrumb-item::before{
+    content: "/";
+    padding: 0 12px;
+    color: var(--neutral-300);
+    font-weight: 700;
+}
+.breadcrumb-item{
+    display: flex;
+    font-weight: 500;
+}
+.breadcrumb-link{
+    color: var(--neutral-600);
+}
