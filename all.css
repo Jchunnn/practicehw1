@@ -73,13 +73,6 @@ body{
      font-family: "Noto Sans", sans-serif;
      letter-spacing: 0.05rem;
 }
-.mina-bold{
-    font-family: "Mina", sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.5;
-    letter-spacing: 0.044rem;
-}
 .header{
     justify-content: space-between;
     align-items: center;
@@ -95,6 +88,9 @@ a{
 a:hover{
     color: var(--primary-400);
 
+}
+.primary-400{
+    color: var(--primary-400);
 }
 .neutral-900{
     color: var(--neutral-900);
