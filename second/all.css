@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mina:wght@400;700&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -42,3 +44,95 @@ table {
 	border-spacing: 0;
 }
 /*css reset*/
+
+/* 標籤基本樣式 */
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+/* 圖片置中 */
+img{
+	vertical-align: middle;
+}
+/* a標籤 */
+a{
+	color: var(--neutral-900);
+}
+/* 通用顏色*/
+:root{
+	--primary-200:#E8FEC5;
+	--primary-400:#57A203;
+	--neutral-white:#ffffff;
+	--neutral-300:#DEE2E6;
+	--neutral-500:#ADB5BD;
+	--neutral-600:#6C757D;
+	--neutral-900:#212529;
+}
+/* body設定 */
+body{
+	font-family: "Noto Sans TC", sans-serif;
+	font-weight: 700;
+	font-size 16px;
+	line-height: 1.2;
+	letter-spacing: 0.05rem;
+	color:
+}
+/* 字體樣式 */
+h2{
+	font-size: 32px;
+}
+h4{
+	font-size: 24px;
+}
+h5{
+	font-size: 20px;
+}
+h6{
+	font-size: 16px;
+}
+.text-md{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.text-md-2{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.text-sm{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+/* 推移 */
+.p8-12{
+	padding: 8px 12px;
+}
+.pt-12{
+	padding-top: 12px;
+}
+.pt-48{
+	padding-top: 48px;
+}
+.pb-12{
+	padding-bottom: 12px;
+}
+.p-15{
+	padding: 15px;
+}
+.mb-32{
+	margin-bottom: 32px;
+}
+.mb-48{
+	margin-bottom: 48px;
+}
+.mb-64{
+	margin-bottom: 64px;
+}
+
+
+/* 小框框顏色 */
+.bg-primary-200{
+	color: var(--primary-200);
+}
